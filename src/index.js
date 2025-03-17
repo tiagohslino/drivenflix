@@ -1,16 +1,15 @@
 import ReactDOM from "react-dom";
 
-function List (){
+function App(){
     return (
-        <ul>
-            <li>O senhor dos aneis 1</li>
-            <li>O senhor dos aneis 2</li>
-            <li>O senhor dos aneis 3</li>
-        </ul>
+        <div>
+            <div class="topo"></div>
+            
+        </div>
     );
 }
 
-const reactList = List();
+const reactList = App();
 const element = document.querySelector(".root");
 
 ReactDOM.render(reactList, element);
