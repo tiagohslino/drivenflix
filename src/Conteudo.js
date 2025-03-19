@@ -1,4 +1,4 @@
-function Conteudo() {
+export default function Conteudo() {
     return (
         <ul class="conteudo">
             <li>Senhor dos anéis: sociedade do anel</li>    

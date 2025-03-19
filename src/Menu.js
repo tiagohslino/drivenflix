@@ -1,4 +1,4 @@
-function Menu() {
+export default function Menu() {
     return (
         <ul class="menu">
             <li><a href="#">Home</a></li> 

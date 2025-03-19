@@ -1,4 +1,4 @@
-function Topo() {
+export default function Topo() {
     return (
         <div class="topo">
             <h1>Drivenflix</h1>

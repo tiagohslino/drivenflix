@@ -1,4 +1,8 @@
-function App(){ //Não é HTML, mas JSX
+import Topo from "./Topo";
+import Menu from "./Menu";
+import Conteudo from "./Conteudo";
+
+export default function App(){ //Não é HTML, mas JSX
     return (
         <div>
             <Topo />
