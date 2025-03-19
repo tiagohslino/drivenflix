@@ -1,17 +1,5 @@
 import { createRoot } from 'react-dom/client';
  
-function App(){ //Não é HTML, mas JSX
-    return (
-        <div>
-            <Topo />
-            <div class="row">
-                <Menu />
-                <Conteudo />               
-            </div>            
-        </div>
-    );
-}
-
 const root = createRoot(document.querySelector(".root"));
 root.render(<App />);
 
