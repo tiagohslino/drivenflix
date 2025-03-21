@@ -20,10 +20,20 @@ export default function Conteudo() {
     )
 }
 
-function Filme(props){
+// function Filme(props){
     
-    const {imagem, nome} = props;
+//     const {imagem, nome} = props;
 
+//     return (
+//         <li className="filme">
+//             <img src={imagem} />
+//             <p>{nome}</p>
+//         </li>
+//     )
+// }
+
+function Filme({imagem, nome}){
+    
     return (
         <li className="filme">
             <img src={imagem} />

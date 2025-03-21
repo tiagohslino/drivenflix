@@ -13,11 +13,10 @@ export default function Menu() {
     )
 }
 
-function MenuItem(props) {
+function MenuItem({imagem, link, texto}) {
 
-    const {imagem, link, texto} = props;
-
-    // const imagem = imagem.props;
+    //DESTRUCTURING
+    // const imagem = imagem.props; 
     // const link = link.props;
     // const texto = texto.props;
     
