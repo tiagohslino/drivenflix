@@ -17,7 +17,7 @@ export default function Topo() {
     }
 
     return (
-        <div class="topo">
+        <div className="topo">
             <h1>Drivenflix</h1>
             <div>
                 <button onClick={inserirNome}>Inserir nome</button>
