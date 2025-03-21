@@ -14,10 +14,17 @@ export default function Menu() {
 }
 
 function MenuItem(props) {
+
+    const {imagem, link, texto} = props;
+
+    // const imagem = imagem.props;
+    // const link = link.props;
+    // const texto = texto.props;
+    
     return (
         <li>
-            <img src={props.imagem} />
-            <a href={props.link}>{props.texto}</a>
+            <img src={imagem} />
+            <a href={link}>{texto}</a>
         </li> 
     )
 }
